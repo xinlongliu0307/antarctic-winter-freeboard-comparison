@@ -1,0 +1,148 @@
+
+==============================
+FILE 1/3: C:\Users\xliu38\OneDrive - University of Tasmania\PhD_manuscripts\manuscript1\cci_cs2_origin_mon_rfb_ifb_sec_avgs.nc
+==============================
+
+-- Global attributes --
+  description: Monthly sector-averaged radar and sea-ice freeboards for CCI CryoSat-2
+  source: CCI CryoSat-2 dataset
+  time_range: May 2013 - October 2018
+
+-- Dimensions --
+  time = 36
+  sectors = 6
+
+-- Variables (name | size | datatype | dims) --
+  Western Weddell_radar_freeboard          | [36] | single     | time
+  Western Weddell_sea_ice_freeboard        | [36] | single     | time
+  Eastern Weddell_radar_freeboard          | [36] | single     | time
+  Eastern Weddell_sea_ice_freeboard        | [36] | single     | time
+  Indian_radar_freeboard                   | [36] | single     | time
+  Indian_sea_ice_freeboard                 | [36] | single     | time
+  Pacific_radar_freeboard                  | [36] | single     | time
+  Pacific_sea_ice_freeboard                | [36] | single     | time
+  Ross_radar_freeboard                     | [36] | single     | time
+  Ross_sea_ice_freeboard                   | [36] | single     | time
+  Amundsen-Bellingshausen_radar_freeboard  | [36] | single     | time
+  Amundsen-Bellingshausen_sea_ice_freeboard | [36] | single     | time
+  time                                     | [36] | int64      | time
+  sectors                                  | [6] | string     | sectors
+
+-- Auto-detected key variables --
+  time var candidate   : time
+  sector id candidate  : sectors
+  sector name candidate: <none>
+  h_fr candidate       : Western Weddell_radar_freeboard
+  h_fi candidate       : Western Weddell_sea_ice_freeboard
+
+-- Time decode (time) --
+  units   : days since 2013-05-01 00:00:00
+  calendar: proleptic_gregorian
+  first   : 01-May-2013
+  last    : 01-Oct-2018
+  n       : 36
+
+-- Sector labels (if available) --
+  (No sector labels found. We will rely on sector_id ordering + documentation.)
+
+-- Quick data sanity check (min/max on first time step) --
+  Western Weddell_radar_freeboard: min=0.106206, max=0.106206
+  Western Weddell_sea_ice_freeboard: min=0.182459, max=0.182459
+
+==============================
+FILE 2/3: C:\Users\xliu38\OneDrive - University of Tasmania\PhD_manuscripts\manuscript1\cryo_cs2_origin_mon_rfb_ifb_sec_avgs.nc
+==============================
+
+-- Global attributes --
+  description: Monthly sector-averaged radar and sea-ice freeboards from Cryo-TEMPO CryoSat-2
+  source: Cryo-TEMPO CryoSat-2 dataset
+  time_range: May 2013 - October 2018
+
+-- Dimensions --
+  time = 36
+
+-- Variables (name | size | datatype | dims) --
+  Western_Weddell_radar_freeboard          | [36] | single     | time
+  Eastern_Weddell_radar_freeboard          | [36] | single     | time
+  Indian_radar_freeboard                   | [36] | single     | time
+  Pacific_radar_freeboard                  | [36] | single     | time
+  Ross_radar_freeboard                     | [36] | single     | time
+  Amundsen_Bellingshausen_radar_freeboard  | [36] | single     | time
+  Western_Weddell_sea_ice_freeboard        | [36] | single     | time
+  Eastern_Weddell_sea_ice_freeboard        | [36] | single     | time
+  Indian_sea_ice_freeboard                 | [36] | single     | time
+  Pacific_sea_ice_freeboard                | [36] | single     | time
+  Ross_sea_ice_freeboard                   | [36] | single     | time
+  Amundsen_Bellingshausen_sea_ice_freeboard | [36] | single     | time
+  time                                     | [36] | int64      | time
+
+-- Auto-detected key variables --
+  time var candidate   : time
+  sector id candidate  : <none>
+  sector name candidate: <none>
+  h_fr candidate       : Western_Weddell_radar_freeboard
+  h_fi candidate       : Western_Weddell_sea_ice_freeboard
+
+-- Time decode (time) --
+  units   : days since 2013-05-01
+  calendar: proleptic_gregorian
+  first   : 01-May-2013
+  last    : 01-Oct-2018
+  n       : 36
+
+-- Sector labels (if available) --
+  (No sector labels found. We will rely on sector_id ordering + documentation.)
+
+-- Quick data sanity check (min/max on first time step) --
+  Western_Weddell_radar_freeboard: min=0.0713014, max=0.0713014
+  Western_Weddell_sea_ice_freeboard: min=0.140341, max=0.140341
+
+==============================
+FILE 3/3: C:\Users\xliu38\OneDrive - University of Tasmania\PhD_manuscripts\manuscript1\csao_cs2_origin_mon_rfb_ifb_sec_avgs.nc
+==============================
+
+-- Global attributes --
+  description: Monthly sector-averaged radar and sea-ice freeboards for CSAO CryoSat-2
+  source: CSAO CryoSat-2 dataset
+  time_range: May 2013 - October 2018
+
+-- Dimensions --
+  time = 36
+  sectors = 6
+
+-- Variables (name | size | datatype | dims) --
+  Western Weddell_radar_freeboard          | [36] | single     | time
+  Western Weddell_sea_ice_freeboard        | [36] | single     | time
+  Eastern Weddell_radar_freeboard          | [36] | single     | time
+  Eastern Weddell_sea_ice_freeboard        | [36] | single     | time
+  Indian_radar_freeboard                   | [36] | single     | time
+  Indian_sea_ice_freeboard                 | [36] | single     | time
+  Pacific_radar_freeboard                  | [36] | single     | time
+  Pacific_sea_ice_freeboard                | [36] | single     | time
+  Ross_radar_freeboard                     | [36] | single     | time
+  Ross_sea_ice_freeboard                   | [36] | single     | time
+  Amundsen-Bellingshausen_radar_freeboard  | [36] | single     | time
+  Amundsen-Bellingshausen_sea_ice_freeboard | [36] | single     | time
+  time                                     | [36] | int64      | time
+  sectors                                  | [6] | string     | sectors
+
+-- Auto-detected key variables --
+  time var candidate   : time
+  sector id candidate  : sectors
+  sector name candidate: <none>
+  h_fr candidate       : Western Weddell_radar_freeboard
+  h_fi candidate       : Western Weddell_sea_ice_freeboard
+
+-- Time decode (time) --
+  units   : days since 2013-05-16 00:00:00
+  calendar: proleptic_gregorian
+  first   : 16-May-2013
+  last    : 16-Oct-2018
+  n       : 36
+
+-- Sector labels (if available) --
+  (No sector labels found. We will rely on sector_id ordering + documentation.)
+
+-- Quick data sanity check (min/max on first time step) --
+  Western Weddell_radar_freeboard: min=0.126736, max=0.126736
+  Western Weddell_sea_ice_freeboard: min=0.164105, max=0.164105
