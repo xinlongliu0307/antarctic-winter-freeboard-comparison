@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+
+title: "Python Scripts for "Antarctic Sea-Ice Freeboard from Envisat and CryoSat-2: Attributing Inter-Product Spread to Snow Assumptions and Radar-Retrieval Baselines""
+
+manuscript: "Antarctic Sea-Ice Freeboard from Envisat and CryoSat-2: Attributing Inter-Product Spread to Snow Assumptions and Radar-Retrieval Baselines"
+
+message: "If you use this repository, please cite the associated manuscript and Zenodo archive."
+
+type: software
+
+authors:
+  - family-names: Liu
+    given-names: Xinlong
+    affiliation: "Institute for Marine and Antarctic Studies and Australian Antarctic Program Partnership, University of Tasmania"
+
+repository-code: "https://github.com/YOUR-USERNAME/ms1-antarctic-freeboard-product-spread"
+
+doi: "10.5281/zenodo.17850929"
+
+date-released: "2026-05-05"
+
+license: "MIT"
