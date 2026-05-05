@@ -1,0 +1,35 @@
+nohup: ignoring input
+
+NB07_figures_with_uncertainty.py
+Started: 2026-05-02 21:13:21
+
+======================================================================
+  Figure: Snow-harmonisation bars with bootstrap CI whiskers
+======================================================================
+  Saved /g/data/gv90/xl1657/phd/M1_workspace/output/figures/C3_extended_freeboard/fig_snow_harmonisation_with_ci.jpg
+  Saved /g/data/gv90/xl1657/phd/M1_workspace/output/figures/C3_extended_freeboard/fig_snow_harmonisation_with_ci.pdf
+  Saved /g/data/gv90/xl1657/phd/M1_workspace/output/figures/C3_extended_freeboard/fig_snow_harmonisation_hsc_with_ci.jpg
+  Saved /g/data/gv90/xl1657/phd/M1_workspace/output/figures/C3_extended_freeboard/fig_snow_harmonisation_hsc_with_ci.pdf
+
+======================================================================
+  Figure: Three-sector time series with inter-product spread envelope
+======================================================================
+  Saved /g/data/gv90/xl1657/phd/M1_workspace/output/figures/C3_extended_freeboard/fig_timeseries_3sectors_hfr_with_ci.jpg
+  Saved /g/data/gv90/xl1657/phd/M1_workspace/output/figures/C3_extended_freeboard/fig_timeseries_3sectors_hfr_with_ci.pdf
+  Saved /g/data/gv90/xl1657/phd/M1_workspace/output/figures/C3_extended_freeboard/fig_timeseries_3sectors_hfi_with_ci.jpg
+  Saved /g/data/gv90/xl1657/phd/M1_workspace/output/figures/C3_extended_freeboard/fig_timeseries_3sectors_hfi_with_ci.pdf
+
+======================================================================
+  GENERATED FIGURES (with uncertainty)
+======================================================================
+  fig_snow_harmonisation_hsc_with_ci.jpg: 688 KB
+  fig_snow_harmonisation_hsc_with_ci.pdf: 38 KB
+  fig_snow_harmonisation_with_ci.jpg: 712 KB
+  fig_snow_harmonisation_with_ci.pdf: 39 KB
+  fig_timeseries_3sectors_hfi_with_ci.jpg: 1347 KB
+  fig_timeseries_3sectors_hfi_with_ci.pdf: 45 KB
+  fig_timeseries_3sectors_hfr_with_ci.jpg: 1294 KB
+  fig_timeseries_3sectors_hfr_with_ci.pdf: 44 KB
+
+Completed: 2026-05-02 21:13:33
+Done.
