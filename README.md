@@ -2,7 +2,7 @@
 
 This repository contains the processing scripts and selected derived outputs used for the study:
 
-**Antarctic Sea-Ice Freeboard from Envisat and CryoSat-2: Attributing Inter-Product Spread to Snow Assumptions and Radar-Retrieval Baselines**
+**Antarctic Sea-Ice Freeboard from Envisat and CryoSat-2: Attributing Inter-Product Spread to Snow Assumptions and Radar-Retrieval Baselines**, 2026
 
 ## Repository scope
 
