@@ -1,0 +1,541 @@
+reference,year,month,item,value
+CLIMATOLOGY,2013,5,climatology_hash,ba9acbb5c116
+CLIMATOLOGY,2013,5,cci_hash_at_build,8874f7328c19
+CLIMATOLOGY,2013,6,climatology_hash,747ad65aea1e
+CLIMATOLOGY,2013,6,cci_hash_at_build,31f9343eeab0
+CLIMATOLOGY,2013,7,climatology_hash,c537a074f0b5
+CLIMATOLOGY,2013,7,cci_hash_at_build,8138a5cdddf7
+CLIMATOLOGY,2013,8,climatology_hash,26953774ed7d
+CLIMATOLOGY,2013,8,cci_hash_at_build,e8bd67824f18
+CLIMATOLOGY,2013,9,climatology_hash,e9a4a42d5320
+CLIMATOLOGY,2013,9,cci_hash_at_build,d8798046013f
+CLIMATOLOGY,2013,10,climatology_hash,9ede449624cd
+CLIMATOLOGY,2013,10,cci_hash_at_build,a2aa9883db02
+CLIMATOLOGY,2014,5,climatology_hash,8474e9083806
+CLIMATOLOGY,2014,5,cci_hash_at_build,fb478f11b10b
+CLIMATOLOGY,2014,6,climatology_hash,62f138310994
+CLIMATOLOGY,2014,6,cci_hash_at_build,d956a68142ec
+CLIMATOLOGY,2014,7,climatology_hash,7dda4e6f32cc
+CLIMATOLOGY,2014,7,cci_hash_at_build,d2e061c5cb77
+CLIMATOLOGY,2014,8,climatology_hash,6cf8edd353c1
+CLIMATOLOGY,2014,8,cci_hash_at_build,8044e62253a8
+CLIMATOLOGY,2014,9,climatology_hash,c4e080a2b608
+CLIMATOLOGY,2014,9,cci_hash_at_build,8a7749830063
+CLIMATOLOGY,2014,10,climatology_hash,1294f4f50370
+CLIMATOLOGY,2014,10,cci_hash_at_build,a401d334f198
+CLIMATOLOGY,2015,5,climatology_hash,3d14d98a60cb
+CLIMATOLOGY,2015,5,cci_hash_at_build,f38e01008ff1
+CLIMATOLOGY,2015,6,climatology_hash,6161dd11c1dd
+CLIMATOLOGY,2015,6,cci_hash_at_build,025bdbf18159
+CLIMATOLOGY,2015,7,climatology_hash,8c0ec3a36e28
+CLIMATOLOGY,2015,7,cci_hash_at_build,342d296855fc
+CLIMATOLOGY,2015,8,climatology_hash,f1a464b81371
+CLIMATOLOGY,2015,8,cci_hash_at_build,09878d6cfa36
+CLIMATOLOGY,2015,9,climatology_hash,12b056a0affd
+CLIMATOLOGY,2015,9,cci_hash_at_build,c036565a290b
+CLIMATOLOGY,2015,10,climatology_hash,9aa9156cf336
+CLIMATOLOGY,2015,10,cci_hash_at_build,cc922f998239
+CLIMATOLOGY,2016,5,climatology_hash,f8e7661d9444
+CLIMATOLOGY,2016,5,cci_hash_at_build,4519331215bc
+CLIMATOLOGY,2016,6,climatology_hash,c4055fa62561
+CLIMATOLOGY,2016,6,cci_hash_at_build,be1dc58d1d2e
+CLIMATOLOGY,2016,7,climatology_hash,9a9e28e9d1eb
+CLIMATOLOGY,2016,7,cci_hash_at_build,d5c4082a7411
+CLIMATOLOGY,2016,8,climatology_hash,e705f2ab1718
+CLIMATOLOGY,2016,8,cci_hash_at_build,5d8f2b2cb669
+CLIMATOLOGY,2016,9,climatology_hash,e8677b25eed6
+CLIMATOLOGY,2016,9,cci_hash_at_build,e0b4f9589a97
+CLIMATOLOGY,2016,10,climatology_hash,43ed9ecda456
+CLIMATOLOGY,2016,10,cci_hash_at_build,33b2483293a2
+CLIMATOLOGY,2017,5,climatology_hash,7f7f45168fa2
+CLIMATOLOGY,2017,5,cci_hash_at_build,14016099dc4f
+CLIMATOLOGY,2017,6,climatology_hash,aba481f25ee7
+CLIMATOLOGY,2017,6,cci_hash_at_build,350caa6a2c3d
+CLIMATOLOGY,2017,7,climatology_hash,478989b499b7
+CLIMATOLOGY,2017,7,cci_hash_at_build,eaaee1d097bd
+CLIMATOLOGY,2017,8,climatology_hash,926af3741907
+CLIMATOLOGY,2017,8,cci_hash_at_build,1081463993db
+CLIMATOLOGY,2017,9,climatology_hash,8354ebdedd9d
+CLIMATOLOGY,2017,9,cci_hash_at_build,44699c1319dd
+CLIMATOLOGY,2017,10,climatology_hash,86e85561365f
+CLIMATOLOGY,2017,10,cci_hash_at_build,5b4881aad5a2
+CLIMATOLOGY,2018,5,climatology_hash,45aca64892b1
+CLIMATOLOGY,2018,5,cci_hash_at_build,b0195b7abab4
+CLIMATOLOGY,2018,6,climatology_hash,56fee1f2d31b
+CLIMATOLOGY,2018,6,cci_hash_at_build,c9ca003418b7
+CLIMATOLOGY,2018,7,climatology_hash,1482ec0e9b34
+CLIMATOLOGY,2018,7,cci_hash_at_build,f7cfa7254380
+CLIMATOLOGY,2018,8,climatology_hash,c2d83ce232f7
+CLIMATOLOGY,2018,8,cci_hash_at_build,b621c37656cf
+CLIMATOLOGY,2018,9,climatology_hash,3ec1f246a1b0
+CLIMATOLOGY,2018,9,cci_hash_at_build,041590ec923c
+CLIMATOLOGY,2018,10,climatology_hash,e993e8792a9e
+CLIMATOLOGY,2018,10,cci_hash_at_build,caa21ba71b19
+CCI,2013,5,ref_hs_source,NPZ:CCI_CS2
+CCI,2013,5,ref_hs_hash,8874f7328c19
+CCI,2013,5,ref_hs_summary,n=4117 mean=0.1545 std=0.0857
+CCI,2013,5,caseD_hfi_hash_CCI_CS2,b49a790af78b
+CCI,2013,6,ref_hs_source,NPZ:CCI_CS2
+CCI,2013,6,ref_hs_hash,31f9343eeab0
+CCI,2013,6,ref_hs_summary,n=5390 mean=0.1634 std=0.0834
+CCI,2013,6,caseD_hfi_hash_CCI_CS2,5b49a7812932
+CCI,2013,7,ref_hs_source,NPZ:CCI_CS2
+CCI,2013,7,ref_hs_hash,8138a5cdddf7
+CCI,2013,7,ref_hs_summary,n=6407 mean=0.1739 std=0.0805
+CCI,2013,7,caseD_hfi_hash_CCI_CS2,a124141b614f
+CCI,2013,8,ref_hs_source,NPZ:CCI_CS2
+CCI,2013,8,ref_hs_hash,e8bd67824f18
+CCI,2013,8,ref_hs_summary,n=6920 mean=0.1764 std=0.0808
+CCI,2013,8,caseD_hfi_hash_CCI_CS2,cd71a9e898cf
+CCI,2013,9,ref_hs_source,NPZ:CCI_CS2
+CCI,2013,9,ref_hs_hash,d8798046013f
+CCI,2013,9,ref_hs_summary,n=7087 mean=0.1674 std=0.0689
+CCI,2013,9,caseD_hfi_hash_CCI_CS2,46b2e0d566cd
+CCI,2013,10,ref_hs_source,NPZ:CCI_CS2
+CCI,2013,10,ref_hs_hash,a2aa9883db02
+CCI,2013,10,ref_hs_summary,n=5979 mean=0.1576 std=0.0609
+CCI,2013,10,caseD_hfi_hash_CCI_CS2,94c79a56f589
+CCI,2014,5,ref_hs_source,NPZ:CCI_CS2
+CCI,2014,5,ref_hs_hash,fb478f11b10b
+CCI,2014,5,ref_hs_summary,n=4309 mean=0.1529 std=0.0843
+CCI,2014,5,caseD_hfi_hash_CCI_CS2,8f4aacc77eaf
+CCI,2014,6,ref_hs_source,NPZ:CCI_CS2
+CCI,2014,6,ref_hs_hash,d956a68142ec
+CCI,2014,6,ref_hs_summary,n=5563 mean=0.1622 std=0.0823
+CCI,2014,6,caseD_hfi_hash_CCI_CS2,33073a59aea7
+CCI,2014,7,ref_hs_source,NPZ:CCI_CS2
+CCI,2014,7,ref_hs_hash,d2e061c5cb77
+CCI,2014,7,ref_hs_summary,n=6474 mean=0.1731 std=0.0797
+CCI,2014,7,caseD_hfi_hash_CCI_CS2,4814898e85a2
+CCI,2014,8,ref_hs_source,NPZ:CCI_CS2
+CCI,2014,8,ref_hs_hash,8044e62253a8
+CCI,2014,8,ref_hs_summary,n=6923 mean=0.1760 std=0.0805
+CCI,2014,8,caseD_hfi_hash_CCI_CS2,801aae881e05
+CCI,2014,9,ref_hs_source,NPZ:CCI_CS2
+CCI,2014,9,ref_hs_hash,8a7749830063
+CCI,2014,9,ref_hs_summary,n=7095 mean=0.1676 std=0.0688
+CCI,2014,9,caseD_hfi_hash_CCI_CS2,c9d49dc062fe
+CCI,2014,10,ref_hs_source,NPZ:CCI_CS2
+CCI,2014,10,ref_hs_hash,a401d334f198
+CCI,2014,10,ref_hs_summary,n=6853 mean=0.1582 std=0.0615
+CCI,2014,10,caseD_hfi_hash_CCI_CS2,3e5d8d54b014
+CCI,2015,5,ref_hs_source,NPZ:CCI_CS2
+CCI,2015,5,ref_hs_hash,f38e01008ff1
+CCI,2015,5,ref_hs_summary,n=4253 mean=0.1530 std=0.0847
+CCI,2015,5,caseD_hfi_hash_CCI_CS2,cd581aa23e44
+CCI,2015,6,ref_hs_source,NPZ:CCI_CS2
+CCI,2015,6,ref_hs_hash,025bdbf18159
+CCI,2015,6,ref_hs_summary,n=5537 mean=0.1624 std=0.0821
+CCI,2015,6,caseD_hfi_hash_CCI_CS2,c639bcf8cec5
+CCI,2015,7,ref_hs_source,NPZ:CCI_CS2
+CCI,2015,7,ref_hs_hash,342d296855fc
+CCI,2015,7,ref_hs_summary,n=6457 mean=0.1741 std=0.0796
+CCI,2015,7,caseD_hfi_hash_CCI_CS2,78eeb788174e
+CCI,2015,8,ref_hs_source,NPZ:CCI_CS2
+CCI,2015,8,ref_hs_hash,09878d6cfa36
+CCI,2015,8,ref_hs_summary,n=6725 mean=0.1773 std=0.0806
+CCI,2015,8,caseD_hfi_hash_CCI_CS2,a221629c3690
+CCI,2015,9,ref_hs_source,NPZ:CCI_CS2
+CCI,2015,9,ref_hs_hash,c036565a290b
+CCI,2015,9,ref_hs_summary,n=6900 mean=0.1685 std=0.0690
+CCI,2015,9,caseD_hfi_hash_CCI_CS2,fead0ae87d02
+CCI,2015,10,ref_hs_source,NPZ:CCI_CS2
+CCI,2015,10,ref_hs_hash,cc922f998239
+CCI,2015,10,ref_hs_summary,n=6689 mean=0.1583 std=0.0616
+CCI,2015,10,caseD_hfi_hash_CCI_CS2,fb83f0528b94
+CCI,2016,5,ref_hs_source,NPZ:CCI_CS2
+CCI,2016,5,ref_hs_hash,4519331215bc
+CCI,2016,5,ref_hs_summary,n=3953 mean=0.1571 std=0.0862
+CCI,2016,5,caseD_hfi_hash_CCI_CS2,53f697beae2a
+CCI,2016,6,ref_hs_source,NPZ:CCI_CS2
+CCI,2016,6,ref_hs_hash,be1dc58d1d2e
+CCI,2016,6,ref_hs_summary,n=5179 mean=0.1667 std=0.0830
+CCI,2016,6,caseD_hfi_hash_CCI_CS2,7ed9db9d32a2
+CCI,2016,7,ref_hs_source,NPZ:CCI_CS2
+CCI,2016,7,ref_hs_hash,d5c4082a7411
+CCI,2016,7,ref_hs_summary,n=6217 mean=0.1762 std=0.0801
+CCI,2016,7,caseD_hfi_hash_CCI_CS2,61ef1eae134f
+CCI,2016,8,ref_hs_source,NPZ:CCI_CS2
+CCI,2016,8,ref_hs_hash,5d8f2b2cb669
+CCI,2016,8,ref_hs_summary,n=6703 mean=0.1784 std=0.0801
+CCI,2016,8,caseD_hfi_hash_CCI_CS2,1a1fd8e91a31
+CCI,2016,9,ref_hs_source,NPZ:CCI_CS2
+CCI,2016,9,ref_hs_hash,e0b4f9589a97
+CCI,2016,9,ref_hs_summary,n=6851 mean=0.1691 std=0.0687
+CCI,2016,9,caseD_hfi_hash_CCI_CS2,d5db14882daf
+CCI,2016,10,ref_hs_source,NPZ:CCI_CS2
+CCI,2016,10,ref_hs_hash,33b2483293a2
+CCI,2016,10,ref_hs_summary,n=6538 mean=0.1582 std=0.0613
+CCI,2016,10,caseD_hfi_hash_CCI_CS2,8392a1335fca
+CCI,2017,5,ref_hs_source,NPZ:CCI_CS2
+CCI,2017,5,ref_hs_hash,14016099dc4f
+CCI,2017,5,ref_hs_summary,n=3779 mean=0.1581 std=0.0879
+CCI,2017,5,caseD_hfi_hash_CCI_CS2,4f46d9cffcc8
+CCI,2017,6,ref_hs_source,NPZ:CCI_CS2
+CCI,2017,6,ref_hs_hash,350caa6a2c3d
+CCI,2017,6,ref_hs_summary,n=5122 mean=0.1666 std=0.0839
+CCI,2017,6,caseD_hfi_hash_CCI_CS2,ca6435b110c6
+CCI,2017,7,ref_hs_source,NPZ:CCI_CS2
+CCI,2017,7,ref_hs_hash,eaaee1d097bd
+CCI,2017,7,ref_hs_summary,n=6169 mean=0.1764 std=0.0810
+CCI,2017,7,caseD_hfi_hash_CCI_CS2,2027ffadfe8d
+CCI,2017,8,ref_hs_source,NPZ:CCI_CS2
+CCI,2017,8,ref_hs_hash,1081463993db
+CCI,2017,8,ref_hs_summary,n=6681 mean=0.1774 std=0.0805
+CCI,2017,8,caseD_hfi_hash_CCI_CS2,63512f54f450
+CCI,2017,9,ref_hs_source,NPZ:CCI_CS2
+CCI,2017,9,ref_hs_hash,44699c1319dd
+CCI,2017,9,ref_hs_summary,n=6807 mean=0.1693 std=0.0685
+CCI,2017,9,caseD_hfi_hash_CCI_CS2,cf18308c9a53
+CCI,2017,10,ref_hs_source,NPZ:CCI_CS2
+CCI,2017,10,ref_hs_hash,5b4881aad5a2
+CCI,2017,10,ref_hs_summary,n=6645 mean=0.1580 std=0.0616
+CCI,2017,10,caseD_hfi_hash_CCI_CS2,c9a53f33b880
+CCI,2018,5,ref_hs_source,NPZ:CCI_CS2
+CCI,2018,5,ref_hs_hash,b0195b7abab4
+CCI,2018,5,ref_hs_summary,n=3773 mean=0.1579 std=0.0876
+CCI,2018,5,caseD_hfi_hash_CCI_CS2,ee10aeac7f5b
+CCI,2018,6,ref_hs_source,NPZ:CCI_CS2
+CCI,2018,6,ref_hs_hash,c9ca003418b7
+CCI,2018,6,ref_hs_summary,n=5174 mean=0.1666 std=0.0832
+CCI,2018,6,caseD_hfi_hash_CCI_CS2,56b89a643db7
+CCI,2018,7,ref_hs_source,NPZ:CCI_CS2
+CCI,2018,7,ref_hs_hash,f7cfa7254380
+CCI,2018,7,ref_hs_summary,n=6309 mean=0.1759 std=0.0810
+CCI,2018,7,caseD_hfi_hash_CCI_CS2,49ab6bad9400
+CCI,2018,8,ref_hs_source,NPZ:CCI_CS2
+CCI,2018,8,ref_hs_hash,b621c37656cf
+CCI,2018,8,ref_hs_summary,n=6783 mean=0.1768 std=0.0804
+CCI,2018,8,caseD_hfi_hash_CCI_CS2,633b8eab303c
+CCI,2018,9,ref_hs_source,NPZ:CCI_CS2
+CCI,2018,9,ref_hs_hash,041590ec923c
+CCI,2018,9,ref_hs_summary,n=6901 mean=0.1680 std=0.0683
+CCI,2018,9,caseD_hfi_hash_CCI_CS2,84b339498847
+CCI,2018,10,ref_hs_source,NPZ:CCI_CS2
+CCI,2018,10,ref_hs_hash,caa21ba71b19
+CCI,2018,10,ref_hs_summary,n=6745 mean=0.1578 std=0.0615
+CCI,2018,10,caseD_hfi_hash_CCI_CS2,f7b2fcedb513
+LEGOS_II,2013,5,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2013,5,ref_hs_hash,7acacab9cc68
+LEGOS_II,2013,5,ref_hs_summary,n=2624 mean=0.1546 std=0.0885
+LEGOS_II,2013,5,caseD_hfi_hash_CCI_CS2,e713a6c8f054
+LEGOS_II,2013,6,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2013,6,ref_hs_hash,37f1fad19b2f
+LEGOS_II,2013,6,ref_hs_summary,n=3630 mean=0.1514 std=0.0940
+LEGOS_II,2013,6,caseD_hfi_hash_CCI_CS2,6fbc48f10473
+LEGOS_II,2013,7,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2013,7,ref_hs_hash,916b0d56ce4e
+LEGOS_II,2013,7,ref_hs_summary,n=4530 mean=0.1663 std=0.0924
+LEGOS_II,2013,7,caseD_hfi_hash_CCI_CS2,60bb9d81962a
+LEGOS_II,2013,8,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2013,8,ref_hs_hash,db5129a9da64
+LEGOS_II,2013,8,ref_hs_summary,n=5116 mean=0.1793 std=0.0949
+LEGOS_II,2013,8,caseD_hfi_hash_CCI_CS2,170e3502302a
+LEGOS_II,2013,9,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2013,9,ref_hs_hash,735244a152e3
+LEGOS_II,2013,9,ref_hs_summary,n=5178 mean=0.1907 std=0.1107
+LEGOS_II,2013,9,caseD_hfi_hash_CCI_CS2,16ec308ce4db
+LEGOS_II,2013,10,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2013,10,ref_hs_hash,66943e91d5d7
+LEGOS_II,2013,10,ref_hs_summary,n=4196 mean=0.2223 std=0.1354
+LEGOS_II,2013,10,caseD_hfi_hash_CCI_CS2,ebe0fed505a9
+LEGOS_II,2014,5,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2014,5,ref_hs_hash,b4a7b41fe0c1
+LEGOS_II,2014,5,ref_hs_summary,n=2781 mean=0.1520 std=0.0971
+LEGOS_II,2014,5,caseD_hfi_hash_CCI_CS2,952f636d823e
+LEGOS_II,2014,6,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2014,6,ref_hs_hash,c749a47c83f5
+LEGOS_II,2014,6,ref_hs_summary,n=3919 mean=0.1672 std=0.0961
+LEGOS_II,2014,6,caseD_hfi_hash_CCI_CS2,05b48526d55f
+LEGOS_II,2014,7,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2014,7,ref_hs_hash,2e096af82da6
+LEGOS_II,2014,7,ref_hs_summary,n=4722 mean=0.1717 std=0.1000
+LEGOS_II,2014,7,caseD_hfi_hash_CCI_CS2,71a9d4d08804
+LEGOS_II,2014,8,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2014,8,ref_hs_hash,55f3cb02037d
+LEGOS_II,2014,8,ref_hs_summary,n=5112 mean=0.1707 std=0.0978
+LEGOS_II,2014,8,caseD_hfi_hash_CCI_CS2,909170f41740
+LEGOS_II,2014,9,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2014,9,ref_hs_hash,6dfee48d7dd8
+LEGOS_II,2014,9,ref_hs_summary,n=5323 mean=0.1852 std=0.1074
+LEGOS_II,2014,9,caseD_hfi_hash_CCI_CS2,d781c03dfea5
+LEGOS_II,2014,10,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2014,10,ref_hs_hash,c9fcd5a0ca9d
+LEGOS_II,2014,10,ref_hs_summary,n=4768 mean=0.2086 std=0.1247
+LEGOS_II,2014,10,caseD_hfi_hash_CCI_CS2,107928328767
+LEGOS_II,2015,5,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2015,5,ref_hs_hash,a4fea00ff8ed
+LEGOS_II,2015,5,ref_hs_summary,n=2957 mean=0.1585 std=0.1022
+LEGOS_II,2015,5,caseD_hfi_hash_CCI_CS2,d43b2148261c
+LEGOS_II,2015,6,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2015,6,ref_hs_hash,22ee7bbcefe5
+LEGOS_II,2015,6,ref_hs_summary,n=3691 mean=0.1640 std=0.0957
+LEGOS_II,2015,6,caseD_hfi_hash_CCI_CS2,0f70a6cc69cb
+LEGOS_II,2015,7,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2015,7,ref_hs_hash,ae1c6fcc8f49
+LEGOS_II,2015,7,ref_hs_summary,n=4426 mean=0.1703 std=0.0978
+LEGOS_II,2015,7,caseD_hfi_hash_CCI_CS2,e38fce97bf49
+LEGOS_II,2015,8,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2015,8,ref_hs_hash,4dd73fb9d5b2
+LEGOS_II,2015,8,ref_hs_summary,n=4651 mean=0.1850 std=0.1083
+LEGOS_II,2015,8,caseD_hfi_hash_CCI_CS2,ccaee968e118
+LEGOS_II,2015,9,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2015,9,ref_hs_hash,7360cdb8cbb7
+LEGOS_II,2015,9,ref_hs_summary,n=4664 mean=0.1802 std=0.1108
+LEGOS_II,2015,9,caseD_hfi_hash_CCI_CS2,4545fc9d7a42
+LEGOS_II,2015,10,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2015,10,ref_hs_hash,a6395f986071
+LEGOS_II,2015,10,ref_hs_summary,n=4555 mean=0.1973 std=0.1281
+LEGOS_II,2015,10,caseD_hfi_hash_CCI_CS2,661cfecfa205
+LEGOS_II,2016,5,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2016,5,ref_hs_hash,2db2fce1bd0d
+LEGOS_II,2016,5,ref_hs_summary,n=2418 mean=0.1527 std=0.1007
+LEGOS_II,2016,5,caseD_hfi_hash_CCI_CS2,554bcb5cc745
+LEGOS_II,2016,6,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2016,6,ref_hs_hash,ecb9757dcbfb
+LEGOS_II,2016,6,ref_hs_summary,n=3342 mean=0.1510 std=0.1001
+LEGOS_II,2016,6,caseD_hfi_hash_CCI_CS2,5f8d6892bfb5
+LEGOS_II,2016,7,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2016,7,ref_hs_hash,bb6a4c9b3150
+LEGOS_II,2016,7,ref_hs_summary,n=4078 mean=0.1565 std=0.1027
+LEGOS_II,2016,7,caseD_hfi_hash_CCI_CS2,a40b297cb0a9
+LEGOS_II,2016,8,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2016,8,ref_hs_hash,d41b6d0d78c5
+LEGOS_II,2016,8,ref_hs_summary,n=4671 mean=0.1604 std=0.1000
+LEGOS_II,2016,8,caseD_hfi_hash_CCI_CS2,285724dc1d24
+LEGOS_II,2016,9,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2016,9,ref_hs_hash,5bdb4425ee75
+LEGOS_II,2016,9,ref_hs_summary,n=4434 mean=0.1832 std=0.1180
+LEGOS_II,2016,9,caseD_hfi_hash_CCI_CS2,653c13e3070d
+LEGOS_II,2016,10,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2016,10,ref_hs_hash,9d0bfa09e047
+LEGOS_II,2016,10,ref_hs_summary,n=4035 mean=0.2118 std=0.1282
+LEGOS_II,2016,10,caseD_hfi_hash_CCI_CS2,ced71bc47f7b
+LEGOS_II,2017,5,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2017,5,ref_hs_hash,549d26f90147
+LEGOS_II,2017,5,ref_hs_summary,n=1958 mean=0.1313 std=0.0925
+LEGOS_II,2017,5,caseD_hfi_hash_CCI_CS2,72c8a12396bb
+LEGOS_II,2017,6,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2017,6,ref_hs_hash,6971f8da5f7b
+LEGOS_II,2017,6,ref_hs_summary,n=2942 mean=0.1358 std=0.0868
+LEGOS_II,2017,6,caseD_hfi_hash_CCI_CS2,a7a39780a7f2
+LEGOS_II,2017,7,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2017,7,ref_hs_hash,6fef3b5fde28
+LEGOS_II,2017,7,ref_hs_summary,n=3926 mean=0.1516 std=0.0924
+LEGOS_II,2017,7,caseD_hfi_hash_CCI_CS2,bc652dfd35ce
+LEGOS_II,2017,8,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2017,8,ref_hs_hash,afed988b8c73
+LEGOS_II,2017,8,ref_hs_summary,n=4343 mean=0.1645 std=0.0970
+LEGOS_II,2017,8,caseD_hfi_hash_CCI_CS2,ee9df19a40d0
+LEGOS_II,2017,9,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2017,9,ref_hs_hash,c8e8b4828c3c
+LEGOS_II,2017,9,ref_hs_summary,n=4004 mean=0.1844 std=0.1090
+LEGOS_II,2017,9,caseD_hfi_hash_CCI_CS2,ccecc5c5817e
+LEGOS_II,2017,10,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2017,10,ref_hs_hash,a7a7bd86710f
+LEGOS_II,2017,10,ref_hs_summary,n=4680 mean=0.2316 std=0.1436
+LEGOS_II,2017,10,caseD_hfi_hash_CCI_CS2,8d9c34b032c1
+LEGOS_II,2018,5,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2018,5,ref_hs_hash,b2f91bb9310b
+LEGOS_II,2018,5,ref_hs_summary,n=2747 mean=0.1887 std=0.1414
+LEGOS_II,2018,5,caseD_hfi_hash_CCI_CS2,ce08b145f311
+LEGOS_II,2018,6,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2018,6,ref_hs_hash,481266ab35e8
+LEGOS_II,2018,6,ref_hs_summary,n=3844 mean=0.1817 std=0.1308
+LEGOS_II,2018,6,caseD_hfi_hash_CCI_CS2,b7a35ed1ef06
+LEGOS_II,2018,7,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2018,7,ref_hs_hash,509d0cb04bbe
+LEGOS_II,2018,7,ref_hs_summary,n=4701 mean=0.1760 std=0.1209
+LEGOS_II,2018,7,caseD_hfi_hash_CCI_CS2,984e3d0baf9e
+LEGOS_II,2018,8,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2018,8,ref_hs_hash,85d165e57b29
+LEGOS_II,2018,8,ref_hs_summary,n=5097 mean=0.1882 std=0.1225
+LEGOS_II,2018,8,caseD_hfi_hash_CCI_CS2,a887e7e698dc
+LEGOS_II,2018,9,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2018,9,ref_hs_hash,c0d52aa1c0b0
+LEGOS_II,2018,9,ref_hs_summary,n=5281 mean=0.2021 std=0.1327
+LEGOS_II,2018,9,caseD_hfi_hash_CCI_CS2,374ad7d95e30
+LEGOS_II,2018,10,ref_hs_source,NPZ:LEGOS_II_CS2
+LEGOS_II,2018,10,ref_hs_hash,c2d550cb3938
+LEGOS_II,2018,10,ref_hs_summary,n=5110 mean=0.2075 std=0.1380
+LEGOS_II,2018,10,caseD_hfi_hash_CCI_CS2,c456bd26dccb
+CLIMATOLOGY,2013,5,ref_hs_source,"DICT:climatology[(2013, 5)]"
+CLIMATOLOGY,2013,5,ref_hs_hash,ba9acbb5c116
+CLIMATOLOGY,2013,5,ref_hs_summary,n=4518 mean=0.1305 std=0.0757
+CLIMATOLOGY,2013,5,cci_check_hash,8874f7328c19
+CLIMATOLOGY,2013,5,caseD_hfi_hash_CCI_CS2,bd7bd681a7d7
+CLIMATOLOGY,2013,6,ref_hs_source,"DICT:climatology[(2013, 6)]"
+CLIMATOLOGY,2013,6,ref_hs_hash,747ad65aea1e
+CLIMATOLOGY,2013,6,ref_hs_summary,n=5788 mean=0.1375 std=0.0768
+CLIMATOLOGY,2013,6,cci_check_hash,31f9343eeab0
+CLIMATOLOGY,2013,6,caseD_hfi_hash_CCI_CS2,4398eb0488e5
+CLIMATOLOGY,2013,7,ref_hs_source,"DICT:climatology[(2013, 7)]"
+CLIMATOLOGY,2013,7,ref_hs_hash,c537a074f0b5
+CLIMATOLOGY,2013,7,ref_hs_summary,n=6771 mean=0.1511 std=0.0747
+CLIMATOLOGY,2013,7,cci_check_hash,8138a5cdddf7
+CLIMATOLOGY,2013,7,caseD_hfi_hash_CCI_CS2,145d5d53af0f
+CLIMATOLOGY,2013,8,ref_hs_source,"DICT:climatology[(2013, 8)]"
+CLIMATOLOGY,2013,8,ref_hs_hash,26953774ed7d
+CLIMATOLOGY,2013,8,ref_hs_summary,n=7529 mean=0.1539 std=0.0799
+CLIMATOLOGY,2013,8,cci_check_hash,e8bd67824f18
+CLIMATOLOGY,2013,8,caseD_hfi_hash_CCI_CS2,dc93746158b5
+CLIMATOLOGY,2013,9,ref_hs_source,"DICT:climatology[(2013, 9)]"
+CLIMATOLOGY,2013,9,ref_hs_hash,e9a4a42d5320
+CLIMATOLOGY,2013,9,ref_hs_summary,n=7816 mean=0.1507 std=0.0804
+CLIMATOLOGY,2013,9,cci_check_hash,d8798046013f
+CLIMATOLOGY,2013,9,caseD_hfi_hash_CCI_CS2,8c3d65f0e2c0
+CLIMATOLOGY,2013,10,ref_hs_source,"DICT:climatology[(2013, 10)]"
+CLIMATOLOGY,2013,10,ref_hs_hash,9ede449624cd
+CLIMATOLOGY,2013,10,ref_hs_summary,n=6932 mean=0.1504 std=0.0868
+CLIMATOLOGY,2013,10,cci_check_hash,a2aa9883db02
+CLIMATOLOGY,2013,10,caseD_hfi_hash_CCI_CS2,e04105637d1d
+CLIMATOLOGY,2014,5,ref_hs_source,"DICT:climatology[(2014, 5)]"
+CLIMATOLOGY,2014,5,ref_hs_hash,8474e9083806
+CLIMATOLOGY,2014,5,ref_hs_summary,n=4725 mean=0.1324 std=0.0850
+CLIMATOLOGY,2014,5,cci_check_hash,fb478f11b10b
+CLIMATOLOGY,2014,5,caseD_hfi_hash_CCI_CS2,fb0f2112c287
+CLIMATOLOGY,2014,6,ref_hs_source,"DICT:climatology[(2014, 6)]"
+CLIMATOLOGY,2014,6,ref_hs_hash,62f138310994
+CLIMATOLOGY,2014,6,ref_hs_summary,n=6007 mean=0.1454 std=0.0829
+CLIMATOLOGY,2014,6,cci_check_hash,d956a68142ec
+CLIMATOLOGY,2014,6,caseD_hfi_hash_CCI_CS2,e7a036ab1ae7
+CLIMATOLOGY,2014,7,ref_hs_source,"DICT:climatology[(2014, 7)]"
+CLIMATOLOGY,2014,7,ref_hs_hash,7dda4e6f32cc
+CLIMATOLOGY,2014,7,ref_hs_summary,n=6935 mean=0.1538 std=0.0827
+CLIMATOLOGY,2014,7,cci_check_hash,d2e061c5cb77
+CLIMATOLOGY,2014,7,caseD_hfi_hash_CCI_CS2,b9714c9fb1f6
+CLIMATOLOGY,2014,8,ref_hs_source,"DICT:climatology[(2014, 8)]"
+CLIMATOLOGY,2014,8,ref_hs_hash,6cf8edd353c1
+CLIMATOLOGY,2014,8,ref_hs_summary,n=7582 mean=0.1544 std=0.0873
+CLIMATOLOGY,2014,8,cci_check_hash,8044e62253a8
+CLIMATOLOGY,2014,8,caseD_hfi_hash_CCI_CS2,ddb9a3eaa234
+CLIMATOLOGY,2014,9,ref_hs_source,"DICT:climatology[(2014, 9)]"
+CLIMATOLOGY,2014,9,ref_hs_hash,c4e080a2b608
+CLIMATOLOGY,2014,9,ref_hs_summary,n=7933 mean=0.1489 std=0.0823
+CLIMATOLOGY,2014,9,cci_check_hash,8a7749830063
+CLIMATOLOGY,2014,9,caseD_hfi_hash_CCI_CS2,5185bcf03d56
+CLIMATOLOGY,2014,10,ref_hs_source,"DICT:climatology[(2014, 10)]"
+CLIMATOLOGY,2014,10,ref_hs_hash,1294f4f50370
+CLIMATOLOGY,2014,10,ref_hs_summary,n=7588 mean=0.1485 std=0.0817
+CLIMATOLOGY,2014,10,cci_check_hash,a401d334f198
+CLIMATOLOGY,2014,10,caseD_hfi_hash_CCI_CS2,7109f04abba4
+CLIMATOLOGY,2015,5,ref_hs_source,"DICT:climatology[(2015, 5)]"
+CLIMATOLOGY,2015,5,ref_hs_hash,3d14d98a60cb
+CLIMATOLOGY,2015,5,ref_hs_summary,n=4774 mean=0.1322 std=0.0807
+CLIMATOLOGY,2015,5,cci_check_hash,f38e01008ff1
+CLIMATOLOGY,2015,5,caseD_hfi_hash_CCI_CS2,3c0e0cd30401
+CLIMATOLOGY,2015,6,ref_hs_source,"DICT:climatology[(2015, 6)]"
+CLIMATOLOGY,2015,6,ref_hs_hash,6161dd11c1dd
+CLIMATOLOGY,2015,6,ref_hs_summary,n=5907 mean=0.1431 std=0.0793
+CLIMATOLOGY,2015,6,cci_check_hash,025bdbf18159
+CLIMATOLOGY,2015,6,caseD_hfi_hash_CCI_CS2,63c127f30c01
+CLIMATOLOGY,2015,7,ref_hs_source,"DICT:climatology[(2015, 7)]"
+CLIMATOLOGY,2015,7,ref_hs_hash,8c0ec3a36e28
+CLIMATOLOGY,2015,7,ref_hs_summary,n=6779 mean=0.1496 std=0.0785
+CLIMATOLOGY,2015,7,cci_check_hash,342d296855fc
+CLIMATOLOGY,2015,7,caseD_hfi_hash_CCI_CS2,80704bea2971
+CLIMATOLOGY,2015,8,ref_hs_source,"DICT:climatology[(2015, 8)]"
+CLIMATOLOGY,2015,8,ref_hs_hash,f1a464b81371
+CLIMATOLOGY,2015,8,ref_hs_summary,n=7183 mean=0.1524 std=0.0798
+CLIMATOLOGY,2015,8,cci_check_hash,09878d6cfa36
+CLIMATOLOGY,2015,8,caseD_hfi_hash_CCI_CS2,b12e8771e3cb
+CLIMATOLOGY,2015,9,ref_hs_source,"DICT:climatology[(2015, 9)]"
+CLIMATOLOGY,2015,9,ref_hs_hash,12b056a0affd
+CLIMATOLOGY,2015,9,ref_hs_summary,n=7431 mean=0.1476 std=0.0777
+CLIMATOLOGY,2015,9,cci_check_hash,c036565a290b
+CLIMATOLOGY,2015,9,caseD_hfi_hash_CCI_CS2,549f2073cdef
+CLIMATOLOGY,2015,10,ref_hs_source,"DICT:climatology[(2015, 10)]"
+CLIMATOLOGY,2015,10,ref_hs_hash,9aa9156cf336
+CLIMATOLOGY,2015,10,ref_hs_summary,n=7399 mean=0.1361 std=0.0769
+CLIMATOLOGY,2015,10,cci_check_hash,cc922f998239
+CLIMATOLOGY,2015,10,caseD_hfi_hash_CCI_CS2,7e724a770cb6
+CLIMATOLOGY,2016,5,ref_hs_source,"DICT:climatology[(2016, 5)]"
+CLIMATOLOGY,2016,5,ref_hs_hash,f8e7661d9444
+CLIMATOLOGY,2016,5,ref_hs_summary,n=4270 mean=0.1295 std=0.0797
+CLIMATOLOGY,2016,5,cci_check_hash,4519331215bc
+CLIMATOLOGY,2016,5,caseD_hfi_hash_CCI_CS2,721e2cc6359b
+CLIMATOLOGY,2016,6,ref_hs_source,"DICT:climatology[(2016, 6)]"
+CLIMATOLOGY,2016,6,ref_hs_hash,c4055fa62561
+CLIMATOLOGY,2016,6,ref_hs_summary,n=5542 mean=0.1359 std=0.0796
+CLIMATOLOGY,2016,6,cci_check_hash,be1dc58d1d2e
+CLIMATOLOGY,2016,6,caseD_hfi_hash_CCI_CS2,8b93576fb0f6
+CLIMATOLOGY,2016,7,ref_hs_source,"DICT:climatology[(2016, 7)]"
+CLIMATOLOGY,2016,7,ref_hs_hash,9a9e28e9d1eb
+CLIMATOLOGY,2016,7,ref_hs_summary,n=6672 mean=0.1398 std=0.0794
+CLIMATOLOGY,2016,7,cci_check_hash,d5c4082a7411
+CLIMATOLOGY,2016,7,caseD_hfi_hash_CCI_CS2,bbaf8cf25e54
+CLIMATOLOGY,2016,8,ref_hs_source,"DICT:climatology[(2016, 8)]"
+CLIMATOLOGY,2016,8,ref_hs_hash,e705f2ab1718
+CLIMATOLOGY,2016,8,ref_hs_summary,n=7273 mean=0.1455 std=0.0813
+CLIMATOLOGY,2016,8,cci_check_hash,5d8f2b2cb669
+CLIMATOLOGY,2016,8,caseD_hfi_hash_CCI_CS2,aee6a3e43ca9
+CLIMATOLOGY,2016,9,ref_hs_source,"DICT:climatology[(2016, 9)]"
+CLIMATOLOGY,2016,9,ref_hs_hash,e8677b25eed6
+CLIMATOLOGY,2016,9,ref_hs_summary,n=7334 mean=0.1429 std=0.0734
+CLIMATOLOGY,2016,9,cci_check_hash,e0b4f9589a97
+CLIMATOLOGY,2016,9,caseD_hfi_hash_CCI_CS2,a0640e200149
+CLIMATOLOGY,2016,10,ref_hs_source,"DICT:climatology[(2016, 10)]"
+CLIMATOLOGY,2016,10,ref_hs_hash,43ed9ecda456
+CLIMATOLOGY,2016,10,ref_hs_summary,n=7164 mean=0.1379 std=0.0731
+CLIMATOLOGY,2016,10,cci_check_hash,33b2483293a2
+CLIMATOLOGY,2016,10,caseD_hfi_hash_CCI_CS2,7a806d8440b4
+CLIMATOLOGY,2017,5,ref_hs_source,"DICT:climatology[(2017, 5)]"
+CLIMATOLOGY,2017,5,ref_hs_hash,7f7f45168fa2
+CLIMATOLOGY,2017,5,ref_hs_summary,n=3918 mean=0.1222 std=0.0772
+CLIMATOLOGY,2017,5,cci_check_hash,14016099dc4f
+CLIMATOLOGY,2017,5,caseD_hfi_hash_CCI_CS2,f68a6766032e
+CLIMATOLOGY,2017,6,ref_hs_source,"DICT:climatology[(2017, 6)]"
+CLIMATOLOGY,2017,6,ref_hs_hash,aba481f25ee7
+CLIMATOLOGY,2017,6,ref_hs_summary,n=5295 mean=0.1310 std=0.0748
+CLIMATOLOGY,2017,6,cci_check_hash,350caa6a2c3d
+CLIMATOLOGY,2017,6,caseD_hfi_hash_CCI_CS2,1b5198a9a02f
+CLIMATOLOGY,2017,7,ref_hs_source,"DICT:climatology[(2017, 7)]"
+CLIMATOLOGY,2017,7,ref_hs_hash,478989b499b7
+CLIMATOLOGY,2017,7,ref_hs_summary,n=6365 mean=0.1429 std=0.0750
+CLIMATOLOGY,2017,7,cci_check_hash,eaaee1d097bd
+CLIMATOLOGY,2017,7,caseD_hfi_hash_CCI_CS2,672dc0db4daf
+CLIMATOLOGY,2017,8,ref_hs_source,"DICT:climatology[(2017, 8)]"
+CLIMATOLOGY,2017,8,ref_hs_hash,926af3741907
+CLIMATOLOGY,2017,8,ref_hs_summary,n=7058 mean=0.1448 std=0.0748
+CLIMATOLOGY,2017,8,cci_check_hash,1081463993db
+CLIMATOLOGY,2017,8,caseD_hfi_hash_CCI_CS2,11241c6a28f6
+CLIMATOLOGY,2017,9,ref_hs_source,"DICT:climatology[(2017, 9)]"
+CLIMATOLOGY,2017,9,ref_hs_hash,8354ebdedd9d
+CLIMATOLOGY,2017,9,ref_hs_summary,n=7256 mean=0.1431 std=0.0733
+CLIMATOLOGY,2017,9,cci_check_hash,44699c1319dd
+CLIMATOLOGY,2017,9,caseD_hfi_hash_CCI_CS2,508af5d42073
+CLIMATOLOGY,2017,10,ref_hs_source,"DICT:climatology[(2017, 10)]"
+CLIMATOLOGY,2017,10,ref_hs_hash,86e85561365f
+CLIMATOLOGY,2017,10,ref_hs_summary,n=7225 mean=0.1391 std=0.0729
+CLIMATOLOGY,2017,10,cci_check_hash,5b4881aad5a2
+CLIMATOLOGY,2017,10,caseD_hfi_hash_CCI_CS2,8687ebc3fb28
+CLIMATOLOGY,2018,5,ref_hs_source,"DICT:climatology[(2018, 5)]"
+CLIMATOLOGY,2018,5,ref_hs_hash,45aca64892b1
+CLIMATOLOGY,2018,5,ref_hs_summary,n=3993 mean=0.1321 std=0.0832
+CLIMATOLOGY,2018,5,cci_check_hash,b0195b7abab4
+CLIMATOLOGY,2018,5,caseD_hfi_hash_CCI_CS2,bd1be4629bec
+CLIMATOLOGY,2018,6,ref_hs_source,"DICT:climatology[(2018, 6)]"
+CLIMATOLOGY,2018,6,ref_hs_hash,56fee1f2d31b
+CLIMATOLOGY,2018,6,ref_hs_summary,n=5424 mean=0.1383 std=0.0805
+CLIMATOLOGY,2018,6,cci_check_hash,c9ca003418b7
+CLIMATOLOGY,2018,6,caseD_hfi_hash_CCI_CS2,c4354e2fd8e4
+CLIMATOLOGY,2018,7,ref_hs_source,"DICT:climatology[(2018, 7)]"
+CLIMATOLOGY,2018,7,ref_hs_hash,1482ec0e9b34
+CLIMATOLOGY,2018,7,ref_hs_summary,n=6530 mean=0.1451 std=0.0772
+CLIMATOLOGY,2018,7,cci_check_hash,f7cfa7254380
+CLIMATOLOGY,2018,7,caseD_hfi_hash_CCI_CS2,e8196496c4ea
+CLIMATOLOGY,2018,8,ref_hs_source,"DICT:climatology[(2018, 8)]"
+CLIMATOLOGY,2018,8,ref_hs_hash,c2d83ce232f7
+CLIMATOLOGY,2018,8,ref_hs_summary,n=7197 mean=0.1500 std=0.0787
+CLIMATOLOGY,2018,8,cci_check_hash,b621c37656cf
+CLIMATOLOGY,2018,8,caseD_hfi_hash_CCI_CS2,69c6c931145d
+CLIMATOLOGY,2018,9,ref_hs_source,"DICT:climatology[(2018, 9)]"
+CLIMATOLOGY,2018,9,ref_hs_hash,3ec1f246a1b0
+CLIMATOLOGY,2018,9,ref_hs_summary,n=7294 mean=0.1496 std=0.0715
+CLIMATOLOGY,2018,9,cci_check_hash,041590ec923c
+CLIMATOLOGY,2018,9,caseD_hfi_hash_CCI_CS2,0574130bcbda
+CLIMATOLOGY,2018,10,ref_hs_source,"DICT:climatology[(2018, 10)]"
+CLIMATOLOGY,2018,10,ref_hs_hash,e993e8792a9e
+CLIMATOLOGY,2018,10,ref_hs_summary,n=7220 mean=0.1402 std=0.0733
+CLIMATOLOGY,2018,10,cci_check_hash,caa21ba71b19
+CLIMATOLOGY,2018,10,caseD_hfi_hash_CCI_CS2,5381f9956179
