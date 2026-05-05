@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+*.egg-info/
+
+# Local config
+config/paths.yaml
+
+# Logs
+*.log
+nohup.out
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Large raw/intermediate data
+data/raw/
+data/intermediate/
+processed/
+*.nc
+*.h5
+*.hdf5
+
+# Large figures generated locally
+figures/*.png
+figures/*.jpg
+figures/*.jpeg
+figures/*.tif
+figures/*.pdf
