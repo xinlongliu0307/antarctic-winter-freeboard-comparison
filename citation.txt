@@ -1,0 +1,26 @@
+## 8. Data availability file
+
+Create `docs/data_availability.md`.
+
+Use language like this:
+
+```markdown
+# Data availability
+
+The repository contains only scripts and selected derived outputs required to reproduce the manuscript-level analysis tables and figures.
+
+The original satellite products are not redistributed because they are provided by external data centres and may have separate access conditions.
+
+Users should obtain the source products from the original providers:
+
+- ESA CCI sea-ice thickness / freeboard products
+- LEGOS Antarctic sea-ice thickness products
+- CSAO CryoSat-2 Antarctic sea-ice product
+- ESA Cryo-TEMPO CryoSat-2 sea-ice product
+
+The scripts assume that these products have been downloaded locally and organised according to the directory structure specified in `config/paths.yaml`.
+
+The derived CSV and NPZ files included in this repository correspond to the outputs of the above manuscript.
+
+Liu, X. (2026). Python Scripts for "Antarctic Sea-Ice Freeboard from Envisat and CryoSat-2: Attributing Inter-Product Spread to Snow Assumptions and Radar-Retrieval Baselines".
+Zenodo. https://doi.org/10.5281/zenodo.17850929.
