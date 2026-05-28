@@ -1,15 +1,33 @@
-name: antarctic winter sea-ice freeboard comparisons
-
+name: ms1-freeboard
 channels:
   - conda-forge
-  
+  - nodefaults
 dependencies:
-  - python=3.10
-  - numpy
-  - scipy
-  - matplotlib
-  - h5py
-  - netcdf4
-  - pyyaml
-  - cartopy
-  - pip
+  - python=3.11
+  # Core scientific stack
+  - numpy>=1.24
+  - pandas>=2.0
+  - xarray>=2023.6
+  - netcdf4>=1.6
+  - scipy>=1.11
+  - matplotlib>=3.7
+  - cartopy>=0.22
+  - pyproj>=3.6
+  - cmocean>=3.0
+  # Regridding
+  - xesmf>=0.7
+  - esmpy>=8.4
+  - pyresample>=1.27
+  # Geospatial helpers
+  - shapely>=2.0
+  - geopandas>=0.13
+  # I/O helpers
+  - h5py>=3.9
+  - h5netcdf>=1.2
+  - dask>=2023.7
+  # Notebook / interactive (optional, retained for exploratory work)
+  - jupyterlab>=4.0
+  - ipykernel>=6.25
+  # Utilities
+  - tqdm>=4.66
+  - pyyaml>=6.0

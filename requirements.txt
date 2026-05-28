@@ -1,7 +1,30 @@
-numpy
-scipy
-matplotlib
-h5py
-netCDF4
-PyYAML
-cartopy
+# Core scientific stack
+numpy>=1.24
+pandas>=2.0
+xarray>=2023.6
+netCDF4>=1.6
+scipy>=1.11
+matplotlib>=3.7
+cartopy>=0.22
+pyproj>=3.6
+cmocean>=3.0
+
+# Regridding (pyresample is pip-installable; xesmf requires conda for ESMF)
+pyresample>=1.27
+
+# Geospatial helpers
+shapely>=2.0
+geopandas>=0.13
+
+# I/O helpers
+h5py>=3.9
+h5netcdf>=1.2
+dask>=2023.7
+
+# Notebook / interactive (optional)
+jupyterlab>=4.0
+ipykernel>=6.25
+
+# Utilities
+tqdm>=4.66
+PyYAML>=6.0

@@ -1,11 +1,92 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the associated manuscript and Zenodo archive."
+message: >-
+  If you use this software, please cite both the archived release (this file)
+  and the manuscript / preprint listed under preferred-citation.
+type: software
+title: >-
+  Python Scripts and Results for "Antarctic Sea-Ice Freeboard from Envisat
+  and CryoSat-2: Attributing Inter-Product Spread to Snow and Radar-Retrieval
+  Contributions"
+version: 1.0.0
+date-released: "2026-05-28"
+license: MIT
+repository-code: >-
+  https://github.com/xinlongliu0307/antarctic-winter-freeboard-comparison
+url: https://doi.org/10.5281/zenodo.19977864
+doi: 10.5281/zenodo.19977864
+abstract: >-
+  Processing and figure-generation code, together with selected derived
+  outputs, used to intercompare Antarctic winter sea-ice freeboard products
+  from Envisat and CryoSat-2 (ESA CCI, LEGOS, CryoSat+ Antarctic Ocean, and
+  Cryo-TEMPO) on the Climate Change Initiative 50 km EASE2 grid. The
+  workflow regrids, masks, sector-averages, and harmonises the products
+  with respect to a common snow reference, and attributes the inter-product
+  spread to snow assumptions and radar-retrieval contributions.
+
 authors:
-- family-names: Liu
-  given-names: Xinlong
-  orcid: "https://orcid.org/0000-0001-6794-7571"
-title: "Python Scripts for "Antarctic Sea-Ice Freeboard from Envisat and CryoSat-2: Attributing Inter-Product Spread to Snow Assumptions and Radar-Retrieval Baselines""
-version: 5
-doi: 10.5281/zenodo.17850929
-date-released: 2026-05-05
-url: "https://github.com/xinlongliu0307/antarctic-winter-freeboard-comparison"
+  - family-names: Liu
+    given-names: Xinlong
+    orcid: "https://orcid.org/0000-0001-6794-7571"
+    affiliation: >-
+      Institute for Marine and Antarctic Studies, University of Tasmania,
+      Hobart, Tasmania, Australia
+    email: xinlong.liu@utas.edu.au
+  - family-names: Tilling
+    given-names: Rachel L.
+    orcid: "https://orcid.org/0000-0002-3433-7651"
+    affiliation: >-
+      NASA Goddard Space Flight Center, Greenbelt, Maryland, USA
+  - family-names: Corney
+    given-names: Stuart P.
+    orcid: "https://orcid.org/0000-0002-8293-0863"
+    affiliation: >-
+      Institute for Marine and Antarctic Studies, University of Tasmania,
+      Hobart, Tasmania, Australia
+  - family-names: Fraser
+    given-names: Alexander D.
+    orcid: "https://orcid.org/0000-0003-1924-0015"
+    affiliation: >-
+      Australian Antarctic Program Partnership, Institute for Marine and
+      Antarctic Studies, University of Tasmania, Hobart, Tasmania, Australia
+  - family-names: Heil
+    given-names: Petra
+    orcid: "https://orcid.org/0000-0003-2078-0342"
+    affiliation: >-
+      Australian Antarctic Division and Australian Antarctic Program
+      Partnership, Hobart, Tasmania, Australia
+
+keywords:
+  - Antarctic sea ice
+  - sea-ice freeboard
+  - radar altimetry
+  - Envisat
+  - CryoSat-2
+  - snow depth over sea ice
+  - inter-product spread
+
+preferred-citation:
+  type: article
+  title: >-
+    Antarctic Sea-Ice Freeboard from Envisat and CryoSat-2: Attributing
+    Inter-Product Spread to Snow and Radar-Retrieval Contributions
+  year: 2026
+  status: in-preparation
+  journal: The Cryosphere
+  doi: 10.22541/essoar.175795179.91131388/v1
+  url: https://doi.org/10.22541/essoar.175795179.91131388/v1
+  authors:
+    - family-names: Liu
+      given-names: Xinlong
+      orcid: "https://orcid.org/0000-0001-6794-7571"
+    - family-names: Tilling
+      given-names: Rachel L.
+      orcid: "https://orcid.org/0000-0002-3433-7651"
+    - family-names: Corney
+      given-names: Stuart P.
+      orcid: "https://orcid.org/0000-0002-8293-0863"
+    - family-names: Fraser
+      given-names: Alexander D.
+      orcid: "https://orcid.org/0000-0003-1924-0015"
+    - family-names: Heil
+      given-names: Petra
+      orcid: "https://orcid.org/0000-0003-2078-0342"
