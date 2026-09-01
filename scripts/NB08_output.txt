@@ -1,0 +1,132 @@
+==============================================================================
+  NB08: trend-sensitivity test menu for the MS#1 minor revision
+  Comment: "quantification of the impact of how you treated the
+           snow ... how it might have impacted the observed trends"
+==============================================================================
+
+  NOTE: the submitted manuscript reports no trend analysis. The only
+  trend claim is at line 768. These tiers test that claim; they do
+  not add a trend section.
+
+  Loaded 4,320 rows from harmonisation_sector_means.csv
+  Columns: ['case', 'year', 'month', 'product', 'sector', 'n_cells', 'hfr_mean', 'hsc_mean', 'hfi_mean']
+  Using value column: hfi_mean  (sea-ice freeboard)
+
+==============================================================================
+  CONTROL: radar freeboard (hfr_mean) must be case-invariant
+==============================================================================
+
+==============================================================================
+  TIER 1: sector-mean trend under each snow case (hfr_mean)
+==============================================================================
+  Sector                       A (m/yr)   D (m/yr)     Delta  % change
+  --------------------------------------------------------------------
+  Western_Weddell              -0.00544   -0.00544   0.00000      0.0%
+  Eastern_Weddell              -0.00741   -0.00741   0.00000      0.0%
+  Indian                       -0.00179   -0.00179   0.00000      0.0%
+  Western_Pacific              -0.00820   -0.00820   0.00000      0.0%
+  Ross                         -0.00607   -0.00607   0.00000      0.0%
+  Amundsen_Bellingshausen       0.00302    0.00302   0.00000      0.0%
+
+  READ: if |Delta| is small relative to the Case A standard error
+  (Tier 4), the snow treatment does not materially affect the trend
+  and line 768 should be softened rather than defended.
+
+  Max A-to-D trend difference in h_fr: 0.000e+00 m/yr
+  PASS: machinery is sound.
+
+==============================================================================
+  TIER 1: sector-mean trend under each snow case (hfi_mean)
+==============================================================================
+  Sector                       A (m/yr)   D (m/yr)     Delta  % change
+  --------------------------------------------------------------------
+  Western_Weddell              -0.00720   -0.00545   0.00176     24.4%
+  Eastern_Weddell              -0.00891   -0.00712   0.00179     20.0%
+  Indian                       -0.00151   -0.00164  -0.00012     -8.0%
+  Western_Pacific              -0.00770   -0.00814  -0.00045     -5.8%
+  Ross                         -0.00713   -0.00606   0.00108     15.1%
+  Amundsen_Bellingshausen       0.00307    0.00311   0.00004      1.2%
+
+  READ: if |Delta| is small relative to the Case A standard error
+  (Tier 4), the snow treatment does not materially affect the trend
+  and line 768 should be softened rather than defended.
+
+==============================================================================
+  TIER 2: inter-product spread of fitted trends (hfi_mean)
+==============================================================================
+  Sector                          A sd      B sd      C sd      D sd   D red%
+  --------------------------------------------------------------------------
+  Western_Weddell              0.00314   0.00308   0.00173   0.00173    45.1%
+  Eastern_Weddell              0.00366   0.00345   0.00215   0.00215    41.4%
+  Indian                       0.00211   0.00202   0.00103   0.00103    51.2%
+  Western_Pacific              0.00344   0.00316   0.00211   0.00212    38.4%
+  Ross                         0.00222   0.00209   0.00125   0.00125    43.8%
+  Amundsen_Bellingshausen      0.00133   0.00125   0.00085   0.00085    36.4%
+
+  READ: a large D-reduction means snow choice drives disagreement
+  between products about the trend, not just about the mean. That is
+  a direct, quantified answer to the comment and reuses the paper's
+  own Case A-D framing, so it needs no new methodology.
+
+==============================================================================
+  TIER 3: is the snow-driven offset time-varying? (hfi_mean)
+==============================================================================
+  Sector                       mean A-D   trend in A-D       p  verdict
+  ----------------------------------------------------------------------------
+  Western_Weddell               0.00157      -0.001755   0.047  offset is time-varying
+  Eastern_Weddell               0.00252      -0.001786   0.000  offset is time-varying
+  Indian                        0.00238       0.000121   0.771  offset is constant
+  Western_Pacific               0.00001       0.000449   0.646  offset is constant
+  Ross                         -0.00006      -0.001076   0.000  offset is time-varying
+  Amundsen_Bellingshausen      -0.00105      -0.000036   0.951  offset is constant
+
+  READ: this is the distinction Reviewer 3 raised on MS#3 and Ted is
+  raising here. If p > 0.05 everywhere, say so plainly: the snow
+  treatment is an offset, not a trend bias.
+
+==============================================================================
+  TIER 4: trend change vs trend uncertainty (hfi_mean)
+==============================================================================
+  Sector                        A trend                 95% CI    D trend  inside?
+  ----------------------------------------------------------------------------
+  Western_Weddell              -0.00720 [ -0.01895,  0.00098]   -0.00545  yes
+  Eastern_Weddell              -0.00891 [ -0.01569, -0.00435]   -0.00712  yes
+  Indian                       -0.00151 [ -0.00194, -0.00104]   -0.00164  yes
+  Western_Pacific              -0.00770 [ -0.01317, -0.00196]   -0.00814  yes
+  Ross                         -0.00713 [ -0.01040, -0.00522]   -0.00606  yes
+  Amundsen_Bellingshausen       0.00307 [ -0.00285,  0.00656]    0.00311  yes
+
+  READ: "yes" everywhere means the snow treatment does not shift the
+  trend beyond what six years of data can resolve. That is a complete
+  and honest answer, and it costs no new analysis section.
+
+==============================================================================
+  TIER 5: cross-era step, Envisat vs CryoSat-2 (diagnostic only)
+==============================================================================
+  Sector                       ENV mean   CS2 mean       step
+  ------------------------------------------------------------
+  Western_Weddell               0.18268    0.20871    0.02603
+  Eastern_Weddell               0.10161    0.12257    0.02096
+  Indian                        0.08255    0.07690   -0.00565
+  Western_Pacific               0.12896    0.12773   -0.00123
+  Ross                          0.11505    0.11556    0.00051
+  Amundsen_Bellingshausen       0.13785    0.12862   -0.00922
+
+  READ: report this only as a limitation. The step conflates a real
+  change with an inter-mission and inter-snow-treatment difference,
+  and separating them is beyond a minor revision.
+
+==============================================================================
+  RECOMMENDATION FOR THE MEETING
+==============================================================================
+  Tier 2 + Tier 3 together are my suggestion: one paragraph and one
+  small table. Tier 2 shows whether snow choice drives inter-product
+  trend disagreement, reusing the paper's own Case A-D framing.
+  Tier 3 settles whether the effect is an offset or a trend bias,
+  which is precisely what Ted asked.
+  Tier 4 is worth adding if Tier 2 shows a large reduction, since it
+  bounds the claim against six years of data.
+  Tier 1 alone is too thin. Tier 5 belongs in Limitations, not here.
+
+  Saved: /g/data/gv90/xl1657/phd/M1_workspace/processed/trend_sensitivity/NB08_trend_sensitivity.csv
+
