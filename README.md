@@ -14,6 +14,9 @@ Code and derived outputs for:
 A preprint of an earlier version of this work is available on ESS Open Archive:
 [doi:10.22541/essoar.175795179.91131388/v1](https://doi.org/10.22541/essoar.175795179.91131388/v1).
 
+A preprint of a brief communication version of this work is available on EGUsphere:
+[doi:10.5194/egusphere-2026-662](https://doi.org/10.5194/egusphere-2026-662).
+
 ---
 
 ## Repository scope
