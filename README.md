@@ -3,8 +3,8 @@
 Code and derived outputs for:
 
 > Liu, X., Tilling, R. L., Corney, S. P., Fraser, A. D., and Heil, P. (2026).
-> *Antarctic Sea-Ice Freeboard from Envisat and CryoSat-2: Attributing
-> Inter-Product Spread to Snow and Radar-Retrieval Contributions.*
+> **Antarctic Sea-Ice Freeboard from Envisat and CryoSat-2: Attributing
+> Inter-Product Spread to Snow and Radar-Retrieval Contributions.**
 > Manuscript under review at *The Cryosphere*.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
