@@ -172,7 +172,7 @@ root for machine-readable citation:
 > Antarctic Sea-Ice Freeboard from Envisat and CryoSat-2: Attributing
 > Inter-Product Spread to Snow and Radar-Retrieval Contributions.
 > *The Cryosphere*, manuscript under review.
-> Preprint: https://doi.org/10.22541/essoar.175795179.91131388/v1
+> Preprint: https://doi.org/10.5194/egusphere-2026-662
 
 **Software / archived release**
 
