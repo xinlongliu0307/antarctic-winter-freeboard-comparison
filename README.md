@@ -12,7 +12,8 @@ Code and derived outputs for:
 [![Made with Python](https://img.shields.io/badge/Made%20with-Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 
 A preprint of an earlier version of this work is available on ESS Open Archive:
-[doi:10.22541/essoar.175795179.91131388/v1](https://doi.org/10.22541/essoar.175795179.91131388/v1).
+[doi:10.22541/essoar.175795179.91131388/v1](https://doi.org/10.22541/essoar.175795179.91131388/v1)
+and [doi:10.22541/essoar.174309801.17791750/v1](https://essopenarchive.org/doi/full/10.22541/essoar.174309801.17791750/v1).
 
 A preprint of a brief communication version of this work is available on EGUsphere:
 [doi:10.5194/egusphere-2026-662](https://doi.org/10.5194/egusphere-2026-662).
