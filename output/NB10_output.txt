@@ -1,0 +1,76 @@
+==============================================================================
+  NB10: reconciling inter-product spread between two sources
+==============================================================================
+  harmonisation_sector_means.csv : 4,320 rows (1,080 in Case A)
+  sector_means_monthly_CS2.csv   : 1,080 rows
+  harmonisation columns: ['case', 'year', 'month', 'product', 'sector', 'n_cells', 'hfr_mean', 'hsc_mean', 'hfi_mean']
+  sector_means columns : ['era', 'year', 'month', 'product', 'sector', 'n_cells', 'hfr_mean', 'hfr_std', 'hfr_median', 'hfi_mean', 'hfi_std', 'hfi_median', 'hs_mean', 'hs_std', 'hs_median', 'hsc_mean', 'hsc_std', 'hsc_median']
+
+==============================================================================
+  1. Product sets
+==============================================================================
+  harmonisation Case A : 5  ['CCI_CS2', 'CSAO_CS2', 'CryoTEMPO_CS2', 'LEGOS_II_CS2', 'LEGOS_I_CS2']
+  sector_means         : 5  ['CCI_CS2', 'CSAO_CS2', 'CryoTEMPO_CS2', 'LEGOS_II_CS2', 'LEGOS_I_CS2']
+  Identical product sets.
+
+==============================================================================
+  2. Temporal coverage
+==============================================================================
+  harmonisation : 36 (year, month) combinations
+  sector_means  : 36 (year, month) combinations
+  Identical coverage.
+
+==============================================================================
+  3. Cell counts per sector (mask check)
+==============================================================================
+  Sector                       harm mean   sect mean    ratio
+  -----------------------------------------------------------
+  Western_Weddell                  489.2       489.2    1.000
+  Eastern_Weddell                 1281.2      1281.2    1.000
+  Indian                           814.1       814.1    1.000
+  Western_Pacific                  397.4       397.4    1.000
+  Ross                            1106.7      1106.7    1.000
+  Amundsen_Bellingshausen          678.2       678.2    1.000
+
+==============================================================================
+  4. Values for products present in both
+==============================================================================
+  Matched 1,080 rows on ['CCI_CS2', 'CSAO_CS2', 'CryoTEMPO_CS2', 'LEGOS_II_CS2', 'LEGOS_I_CS2']
+  mean difference : +0.005084 m
+  max |difference|: 0.027259 m
+  rows differing by >1 mm: 631
+  --> Values differ. Inspect per product:
+      CCI_CS2            mean -0.000103  max |d| 0.000941
+      CSAO_CS2           mean +0.000000  max |d| 0.000000
+      CryoTEMPO_CS2      mean +0.003903  max |d| 0.013754
+      LEGOS_II_CS2       mean +0.010923  max |d| 0.018438
+      LEGOS_I_CS2        mean +0.010698  max |d| 0.027259
+
+==============================================================================
+  5. Spread recomputed identically from both files
+==============================================================================
+  Sector                          harm    n      sect    n    ratio
+  -----------------------------------------------------------------
+  Western_Weddell               0.0985   36    0.0856   36    1.151
+  Eastern_Weddell               0.0629   36    0.0553   36    1.139
+  Indian                        0.0408   36    0.0340   36    1.199
+  Western_Pacific               0.0526   36    0.0453   36    1.160
+  Ross                          0.0442   36    0.0375   36    1.178
+  Amundsen_Bellingshausen       0.0513   36    0.0438   36    1.170
+
+==============================================================================
+  VERDICT
+==============================================================================
+  Median spread ratio (harmonisation / sector_means): 1.165
+  The files disagree with identical product sets and coverage.
+  Check sections 3 and 4 above: a mask difference or a value
+  offset must account for it. Do NOT quote either number until
+  this is resolved, since L167 depends on it.
+
+  Manuscript L167 states approximately 0.10 m for the Western Weddell Sea.
+    harmonisation : 0.0985 m
+    sector_means  : 0.0856 m
+
+  Saved: /g/data/gv90/xl1657/phd/M1_workspace/processed/trend_sensitivity/NB10_spread_reconciliation.csv
+==============================================================================
+

@@ -1,0 +1,107 @@
+==============================================================================
+  NB09 v2: inter-product spread vs seasonal and inter-annual signal
+  Both spread conventions reported. Referee 2, general comment 4.
+==============================================================================
+  Filtered to Case A (native snow inputs): 1,080 rows
+
+  ../snow_harmonisation/harmonisation_sector_means.csv: 1,080 rows, 5 products ['CCI_CS2', 'CSAO_CS2', 'CryoTEMPO_CS2', 'LEGOS_II_CS2', 'LEGOS_I_CS2']
+
+==============================================================================
+  CryoSat-2 era, hfi_mean
+==============================================================================
+  Manuscript convention: range across products per month, averaged
+  Sector                       spread  seasonal      %  interann      %
+  --------------------------------------------------------------------
+  Western Weddell              0.0985    0.0405    244    0.0572    172
+  Eastern Weddell              0.0629    0.0447    141    0.0428    147
+  Indian                       0.0408    0.0234    174    0.0134    304
+  Western Pacific              0.0526    0.0272    193    0.0513    103
+  Ross                         0.0442    0.0396    112    0.0338    131
+  Amundsen-Bellingshausen      0.0513    0.0487    105    0.0272    189
+
+  --> 105-244% of the seasonal cycle, 103-304% of the inter-annual range.
+      The spread EXCEEDS both signals in EVERY sector.
+
+  Persistent component: winter-mean range as a share of the monthly range
+  Sector                      win range  sd(winter)  persistent %
+  ---------------------------------------------------------------
+  Western Weddell                0.0916      0.0430           93%
+  Eastern Weddell                0.0585      0.0255           93%
+  Indian                         0.0335      0.0147           82%
+  Western Pacific                0.0403      0.0176           77%
+  Ross                           0.0402      0.0178           91%
+  Amundsen-Bellingshausen        0.0453      0.0201           88%
+
+  --> 87% of the monthly disagreement persists after averaging over the record;
+      the remainder varies month to month and cannot be removed by a constant offset.
+
+==============================================================================
+  CryoSat-2 era, hfr_mean
+==============================================================================
+  Manuscript convention: range across products per month, averaged
+  Sector                       spread  seasonal      %  interann      %
+  --------------------------------------------------------------------
+  Western Weddell              0.0823    0.0271    304    0.0460    179
+  Eastern Weddell              0.0562    0.0352    160    0.0374    150
+  Indian                       0.0340    0.0223    153    0.0109    312
+  Western Pacific              0.0410    0.0231    177    0.0475     86
+  Ross                         0.0410    0.0275    149    0.0286    143
+  Amundsen-Bellingshausen      0.0476    0.0360    132    0.0231    206
+
+  --> 132-304% of the seasonal cycle, 86-312% of the inter-annual range.
+      The spread exceeds the seasonal cycle in every sector.
+
+  Persistent component: winter-mean range as a share of the monthly range
+  Sector                      win range  sd(winter)  persistent %
+  ---------------------------------------------------------------
+  Western Weddell                0.0819      0.0365          100%
+  Eastern Weddell                0.0535      0.0229           95%
+  Indian                         0.0261      0.0121           77%
+  Western Pacific                0.0346      0.0173           84%
+  Ross                           0.0377      0.0169           92%
+  Amundsen-Bellingshausen        0.0457      0.0201           96%
+
+  --> 91% of the monthly disagreement persists after averaging over the record;
+      the remainder varies month to month and cannot be removed by a constant offset.
+
+==============================================================================
+  CryoSat-2 era, hsc_mean
+==============================================================================
+  Manuscript convention: range across products per month, averaged
+  Sector                       spread  seasonal      %  interann      %
+  --------------------------------------------------------------------
+  Western Weddell              0.0408    0.0249    164    0.0129    316
+  Eastern Weddell              0.0209    0.0167    125    0.0084    249
+  Indian                       0.0213    0.0107    200    0.0045    469
+  Western Pacific              0.0285    0.0112    254    0.0110    259
+  Ross                         0.0227    0.0160    142    0.0061    371
+  Amundsen-Bellingshausen      0.0226    0.0167    136    0.0064    352
+
+  --> 125-254% of the seasonal cycle, 249-469% of the inter-annual range.
+      The spread EXCEEDS both signals in EVERY sector.
+
+  Persistent component: winter-mean range as a share of the monthly range
+  Sector                      win range  sd(winter)  persistent %
+  ---------------------------------------------------------------
+  Western Weddell                0.0364      0.0139           89%
+  Eastern Weddell                0.0142      0.0060           68%
+  Indian                         0.0193      0.0081           91%
+  Western Pacific                0.0263      0.0105           92%
+  Ross                           0.0193      0.0075           85%
+  Amundsen-Bellingshausen        0.0181      0.0073           80%
+
+  --> 84% of the monthly disagreement persists after averaging over the record;
+      the remainder varies month to month and cannot be removed by a constant offset.
+
+==============================================================================
+  FOR THE MANUSCRIPT
+==============================================================================
+  Quote for h_fi, CryoSat-2 era, manuscript convention:
+    105-244% of the seasonal cycle amplitude
+    103-304% of the inter-annual range
+  Cross-check the spread against manuscript L167 (approximately 0.10 m, W. Weddell):
+    computed here: 0.0985 m
+
+  Saved: /g/data/gv90/xl1657/phd/M1_workspace/processed/trend_sensitivity/NB09_spread_vs_signal_v2.csv
+==============================================================================
+
