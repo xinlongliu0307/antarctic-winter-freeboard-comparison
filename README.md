@@ -5,7 +5,7 @@ Code and derived outputs for:
 > Liu, X., Tilling, R. L., Corney, S. P., Fraser, A. D., and Heil, P. (2026).
 > **Antarctic Sea-Ice Freeboard from Envisat and CryoSat-2: Attributing
 > Inter-Product Spread to Snow and Radar-Retrieval Contributions.**
-> Manuscript under review at *The Cryosphere*.
+> Manuscript in revision at *The Cryosphere*.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19977864.svg)](https://doi.org/10.5281/zenodo.19977864)
@@ -31,8 +31,6 @@ with selected derived outputs, used in the study. Specifically, it contains:
 - Bootstrap uncertainty quantification and a paired-snow harmonisation
   workflow that isolates the snow and radar-retrieval contributions to the
   inter-product spread.
-- MATLAB scripts that generate the compact two-sector time-evolution and
-  metrics-dashboard figures from sector-average NetCDF files.
 - Derived sector-mean tables, harmonisation tables, alternative
   snow-reference outputs, and common masks / sector definitions referenced
   in the manuscript.
@@ -55,6 +53,7 @@ antarctic-winter-freeboard-comparison/
 ├── README.md                   # This file
 ├── environment.yml             # Conda environment specification
 └── requirements.txt            # Pip requirement pins
+├── output/                     # Terminal output of each script
 ```
 
 ---
@@ -83,19 +82,28 @@ intermediate outputs to `data/` for use by the following step.
 
 | Step | Script | Purpose |
 |---|---|---|
-| 00 | `00_inspect_raw_data.py` | Inspect raw product files, verify grids, dimensions, and time coverage |
-| 01 | `01_regrid_to_cci_grid.py` | Regrid every product to the CCI 50 km EASE2 grid |
-| 02 | `02_common_mask_and_sectors.py` | Build the common winter mask and Weddell / Ross / pan-Antarctic sector masks |
-| 03 | `03_snow_harmonisation.py` | Apply paired-snow harmonisation across products |
-| 04 | `04_sector_means.py` | Compute monthly and multi-year sector-mean freeboards and write the harmonised NetCDFs |
-| 05 | `05_bootstrap_uncertainty.py` | Block-bootstrap uncertainty for sector means and inter-product spread |
-| 06 | `06_alternative_snow_reference.py` | Repeat the harmonisation against an alternative snow reference |
-| 07 | `07_figures_with_uncertainty.py` | Produce the main manuscript figures with uncertainty envelopes |
+| 00 | `NB00_inspect_raw_data.py` | Inspect raw product files; verify grids, dimensions and time coverage |
+| 01 | `NB01_regrid_to_cci_grid.py` | Map LEGOS and CSAO onto the CCI 50 km EASE2 grid by nearest-neighbour sampling; bin along-track Cryo-TEMPO by month |
+| 02 | `NB02_common_mask_and_sectors.py` | Common mask (valid radar freeboard in all products), six longitude sectors, sector means |
+| 03 | `NB03_snow_harmonisation.py` | Snow-harmonisation Cases A–D |
+| 04 | `NB04_chapter3_figures.py` | Maps, difference maps, time series and scatter figures |
+| 05 | `NB05_bootstrap_uncertainty.py` | Year-level bootstrap (1,000 realisations) for spread and spread reductions |
+| 06 | `NB06_alternative_snow_reference_v2.py` | Alternative common snow references (Table A1) |
+| 07 | `NB07_figures_with_uncertainty_v2.py` | Harmonisation figures with confidence intervals |
+| 08 | `NB08_trend_sensitivity_tests.py` | Trend sensitivity (Tables 5 and 6; 2,000 bootstrap realisations) |
+| 09 | `NB09_spread_vs_signal_v2.py` | Inter-product spread against seasonal-cycle amplitude and inter-annual range |
+| 10 | `NB10_reconcile_spread_sources.py` | Distributed LEGOS sea-ice freeboard against Equation 1 |
 
-The MATLAB figure scripts (`make_ms1_Fig2_TwoSector_TimeEvolution.m` and
-`make_ms1_Fig3_MetricsDashboard.m`, with the helper `inspect_ms1_sector_nc.m`)
-read the sector-mean NetCDF files produced at step 04 and generate the
-compact two-sector and metrics-dashboard figures in the manuscript.
+Checks added for the second minor revision (November 2026):
+
+| Script | Purpose |
+|---|---|
+| `C1_density_check.py` | Ratio of the distributed snow correction to snow thickness, by product and month |
+| `C2_sens_CT300.py` | Reruns Cases A–D and the bootstrap with Cryo-TEMPO at 300 kg m⁻³ (Table A2) |
+| `P1_offset_trend_pvalues.py` | Offset-trend p-values with a Student's t test (Table 6) |
+| `P2_check_tables_2_3.py` | Recomputes Tables 2 and 3 from the unrounded multi-year means |
+
+Terminal output of each script is in `output/`. `data/` mirrors the `processed/` directory used by the scripts.
 
 ---
 
@@ -114,6 +122,9 @@ python scripts/04_sector_means.py
 python scripts/05_bootstrap_uncertainty.py
 python scripts/06_alternative_snow_reference.py
 python scripts/07_figures_with_uncertainty.py
+python scripts/08_trend_sensitivity_tests.py
+python scripts/09_spread_vs_signal.py
+python scripts/10_reconcile_spread_sources.py
 ```
 
 If you prefer `pip` over `conda`, an equivalent (Python ≥ 3.10) environment
@@ -134,9 +145,8 @@ The MATLAB figure scripts have been tested on MATLAB R2023a and later.
 - Python ≥ 3.10
 - Core scientific stack: `numpy`, `pandas`, `xarray`, `netCDF4`, `scipy`,
   `matplotlib`, `cartopy`, `pyproj`, `cmocean`
-- Regridding: `xesmf` (or a `pyresample`-based fallback)
+- Regridding: nearest-neighbour lookup with scipy.spatial.cKDTree;
 - Bootstrap / statistics: `scipy.stats`
-- MATLAB ≥ R2023a for the figure-generation scripts
 
 The exact pins used to produce the manuscript outputs are recorded in
 `environment.yml` and `requirements.txt`.
@@ -180,7 +190,7 @@ root for machine-readable citation:
 > Liu, X., Tilling, R. L., Corney, S. P., Fraser, A. D., and Heil, P. (2026).
 > *Python Scripts and Results for "Antarctic Sea-Ice Freeboard from
 > Envisat and CryoSat-2: Attributing Inter-Product Spread to Snow and
-> Radar-Retrieval Contributions"* (v1.0.0) [Software]. Zenodo.
+> Radar-Retrieval Contributions"* (v1.1.0) [Software]. Zenodo.
 > https://doi.org/10.5281/zenodo.19977864
 
 ---

@@ -7,8 +7,8 @@ title: >-
   Python Scripts and Results for "Antarctic Sea-Ice Freeboard from Envisat
   and CryoSat-2: Attributing Inter-Product Spread to Snow and Radar-Retrieval
   Contributions"
-version: 1.0.0
-date-released: "2026-05-28"
+version: 1.1.0
+date-released: "2026-11-24"
 license: MIT
 repository-code: >-
   https://github.com/xinlongliu0307/antarctic-winter-freeboard-comparison
@@ -35,7 +35,8 @@ authors:
     given-names: Rachel L.
     orcid: "https://orcid.org/0000-0002-3433-7651"
     affiliation: >-
-      NASA Goddard Space Flight Center, Greenbelt, Maryland, USA
+      Cryospheric Sciences Laboratory, NASA Goddard Space Flight Center, Greenbelt, Maryland, USA
+      Earth System Science Interdisciplinary Center, University of Maryland, College Park, Maryland, USA
   - family-names: Corney
     given-names: Stuart P.
     orcid: "https://orcid.org/0000-0002-8293-0863"
@@ -72,8 +73,8 @@ preferred-citation:
   year: 2026
   status: in-preparation
   journal: The Cryosphere
-  doi: 10.22541/essoar.175795179.91131388/v1
-  url: https://doi.org/10.22541/essoar.175795179.91131388/v1
+  doi: 10.5194/egusphere-2026-662
+  url: https://doi.org/10.5194/egusphere-2026-662
   authors:
     - family-names: Liu
       given-names: Xinlong
