@@ -73,12 +73,12 @@
 ==============================================================================
   Sector                       mean A-D   trend in A-D       p  verdict
   ----------------------------------------------------------------------------
-  Western_Weddell               0.00157      -0.001755   0.047  offset is time-varying
-  Eastern_Weddell               0.00252      -0.001786   0.000  offset is time-varying
-  Indian                        0.00238       0.000121   0.771  offset is constant
-  Western_Pacific               0.00001       0.000449   0.646  offset is constant
-  Ross                         -0.00006      -0.001076   0.000  offset is time-varying
-  Amundsen_Bellingshausen      -0.00105      -0.000036   0.951  offset is constant
+  Western_Weddell               0.00157      -0.001755   0.118  offset is constant
+  Eastern_Weddell               0.00252      -0.001786   0.005  offset is time-varying
+  Indian                        0.00238       0.000121   0.786  offset is constant
+  Western_Pacific               0.00001       0.000449   0.670  offset is constant
+  Ross                         -0.00006      -0.001076   0.006  offset is time-varying
+  Amundsen_Bellingshausen      -0.00105      -0.000036   0.954  offset is constant
 
   READ: this is the distinction Reviewer 3 raised on MS#3 and Ted is
   raising here. If p > 0.05 everywhere, say so plainly: the snow

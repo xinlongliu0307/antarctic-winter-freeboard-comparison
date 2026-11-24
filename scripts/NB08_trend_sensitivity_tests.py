@@ -44,6 +44,7 @@ import math
 
 import numpy as np
 import pandas as pd
+from scipy import stats
 
 BASE = '/g/data/gv90/xl1657/phd/M1_workspace/processed'
 HARM = os.path.join(BASE, 'snow_harmonisation')
@@ -69,9 +70,9 @@ def ols_trend(years, values):
     """
     Least-squares linear trend with standard error and a two-sided p-value.
 
-    Returns (slope_per_year, stderr, p_value, n). Uses a normal approximation
-    for the p-value, which is adequate for the six-year CryoSat-2 record; the
-    bootstrap in Tier 4 is the defensible uncertainty estimate.
+    Returns (slope_per_year, stderr, p_value, n). The p-value is a two-sided
+    Student's t test with n - 2 degrees of freedom; the bootstrap in Tier 4
+    gives the confidence interval on the trend itself.
     """
     m = np.isfinite(years) & np.isfinite(values)
     x, y = np.asarray(years, float)[m], np.asarray(values, float)[m]
@@ -87,7 +88,7 @@ def ols_trend(years, values):
     if n > 2:
         se = np.sqrt((resid ** 2).sum() / (n - 2) / sxx)
         z = slope / se if se > 0 else np.inf
-        p = 2 * (1 - 0.5 * (1 + math.erf(abs(z) / math.sqrt(2))))
+        p = 2 * stats.t.sf(abs(z), n - 2)
     else:
         se, p = np.nan, np.nan
     return slope, se, p, n
