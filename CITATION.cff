@@ -35,7 +35,7 @@ authors:
     given-names: Rachel L.
     orcid: "https://orcid.org/0000-0002-3433-7651"
     affiliation: >-
-      Cryospheric Sciences Laboratory, NASA Goddard Space Flight Center, Greenbelt, Maryland, USA
+      Cryospheric Sciences Laboratory, NASA Goddard Space Flight Center, Greenbelt, Maryland, USA;
       Earth System Science Interdisciplinary Center, University of Maryland, College Park, Maryland, USA
   - family-names: Corney
     given-names: Stuart P.
@@ -54,7 +54,8 @@ authors:
     orcid: "https://orcid.org/0000-0003-2078-0342"
     affiliation: >-
       Australian Antarctic Division and Australian Antarctic Program
-      Partnership, Hobart, Tasmania, Australia
+      Partnership, Hobart, Tasmania, Australia;
+      British Antarctic Survey, Cambridge, United Kingdom
 
 keywords:
   - Antarctic sea ice
@@ -71,7 +72,7 @@ preferred-citation:
     Antarctic Sea-Ice Freeboard from Envisat and CryoSat-2: Attributing
     Inter-Product Spread to Snow and Radar-Retrieval Contributions
   year: 2026
-  status: in-preparation
+  status: submitted
   journal: The Cryosphere
   doi: 10.5194/egusphere-2026-662
   url: https://doi.org/10.5194/egusphere-2026-662
