@@ -1,0 +1,21 @@
+
+Offset trend (Case A minus Case D): normal vs t test
+                 sector  offset_trend_m_per_yr   stderr         t  dof  p_value      p_t
+        Western_Weddell              -0.001755 0.000884 -1.985149    4 0.118104 0.118104
+        Eastern_Weddell              -0.001786 0.000310 -5.757815    4 0.004513 0.004513
+                 Indian               0.000121 0.000417  0.290862    4 0.785615 0.785615
+        Western_Pacific               0.000449 0.000977  0.459531    4 0.669719 0.669719
+                   Ross              -0.001076 0.000201 -5.341682    4 0.005919 0.005919
+Amundsen_Bellingshausen              -0.000036 0.000591 -0.061265    4 0.954087 0.954087
+
+Table 6, last column, ready to paste:
+  Western_Weddell            & \del{$0.047^{*}$}\add{$0.118$}
+  Eastern_Weddell            & \del{$<0.001^{*}$}\add{$0.005^{*}$}
+  Indian                     & \del{$0.771$}\add{$0.786$}
+  Western_Pacific            & \del{$0.646$}\add{$0.670$}
+  Ross                       & \del{$<0.001^{*}$}\add{$0.006^{*}$}
+  Amundsen_Bellingshausen    & \del{$0.951$}\add{$0.954$}
+
+Significant at p < 0.05 with the t test: 2 of 6 sectors ['Eastern_Weddell', 'Ross']
+Normal approximation in the manuscript: 3 of 6 sectors.
+
