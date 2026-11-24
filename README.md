@@ -136,7 +136,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-The MATLAB figure scripts have been tested on MATLAB R2023a and later.
+Each script sets its input and output directories near the top (for example BASE); change these to your own paths before running.
 
 ---
 
