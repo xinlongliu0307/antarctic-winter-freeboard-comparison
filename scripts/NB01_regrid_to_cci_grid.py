@@ -8,8 +8,8 @@ PhD Thesis — Xinlong Liu, IMAS, University of Tasmania
 
 Purpose:
   - Extract the CCI 216x216 EASE-2 grid as the reference target grid.
-  - Regrid LEGOS (850x850, 12.5 km) → 50 km using pyresample.
-  - Regrid CSAO (712x712, 12.5 km) → 50 km using pyresample.
+  - Regrid LEGOS (850x850, 12.5 km) → 50 km by nearest-neighbour lookup (k-d tree, 75 km cut-off).
+  - Regrid CSAO (712x712, 12.5 km) → 50 km by nearest-neighbour lookup (k-d tree, 75 km cut-off).
   - Bin Cryo-TEMPO along-track data → monthly 50 km grid cells.
   - Save all regridded products as monthly NetCDF files in processed/regridded/.
 
