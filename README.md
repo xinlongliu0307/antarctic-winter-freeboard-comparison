@@ -46,6 +46,7 @@ providers (see "Data products used" below).
 ```
 antarctic-winter-freeboard-comparison/
 ├── data/                       # Common masks, sector definitions, derived tables
+├── output/                     # Terminal output of each script
 ├── scripts/                    # Python + MATLAB processing and figure scripts
 ├── .gitignore
 ├── CITATION.cff                # Machine-readable citation metadata
@@ -53,7 +54,6 @@ antarctic-winter-freeboard-comparison/
 ├── README.md                   # This file
 ├── environment.yml             # Conda environment specification
 └── requirements.txt            # Pip requirement pins
-├── output/                     # Terminal output of each script
 ```
 
 ---
