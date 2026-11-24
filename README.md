@@ -114,17 +114,17 @@ Create the conda environment, activate it, and run the steps in order:
 ```bash
 conda env create -f environment.yml
 conda activate ms1-freeboard
-python scripts/00_inspect_raw_data.py
-python scripts/01_regrid_to_cci_grid.py
-python scripts/02_common_mask_and_sectors.py
-python scripts/03_snow_harmonisation.py
-python scripts/04_sector_means.py
-python scripts/05_bootstrap_uncertainty.py
-python scripts/06_alternative_snow_reference.py
-python scripts/07_figures_with_uncertainty.py
-python scripts/08_trend_sensitivity_tests.py
-python scripts/09_spread_vs_signal.py
-python scripts/10_reconcile_spread_sources.py
+python scripts/NB00_inspect_raw_data.py
+python scripts/NB01_regrid_to_cci_grid.py
+python scripts/NB02_common_mask_and_sectors.py
+python scripts/NB03_snow_harmonisation.py
+python scripts/NB04_chapter3_figures.py
+python scripts/NB05_bootstrap_uncertainty.py
+python scripts/NB06_alternative_snow_reference_v2.py
+python scripts/NB07_figures_with_uncertainty_v2.py
+python scripts/NB08_trend_sensitivity_tests.py
+python scripts/NB09_spread_vs_signal_v2.py
+python scripts/NB10_reconcile_spread_sources.py
 ```
 
 If you prefer `pip` over `conda`, an equivalent (Python ≥ 3.10) environment
